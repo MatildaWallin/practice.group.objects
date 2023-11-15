@@ -9,9 +9,12 @@ let people = [
 for(let i = 0; i < people.length; i++){
     let ptag = document.createElement("p");
 
-    ptag.innerHTML = people[i].name;
+    ptag.innerHTML = people[i].name + " " + people[i].age;
 
     const ptagHolder = document.getElementById("ptagHolder");
 
     ptagHolder.appendChild(ptag)
+
+    ptag.id = "pId";
 }
+

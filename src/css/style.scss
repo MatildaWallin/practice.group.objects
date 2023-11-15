@@ -95,3 +95,22 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+#ptagHolder {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  padding: 10%;
+}
+
+#pId {
+  border: solid grey 2px;
+  padding: 10px;
+  font-size: 4rem;
+  border-radius: 5px;
+}
+
+#pId:hover {
+  background-color: #213547;
+  cursor: pointer;
+}
