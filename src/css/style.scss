@@ -83,6 +83,16 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.dogbox {
+  border: 2px solid rgb(124, 123, 123);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  background-color: rgb(244, 240, 240);
+  color: rgb(124, 123, 123);
+  font-weight: bold;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
